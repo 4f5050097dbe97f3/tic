@@ -1,0 +1,21 @@
+@font-face {
+    font-family: icomoon;
+    src: url('./IcoMoon.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+button,input {
+    outline: none;
+}

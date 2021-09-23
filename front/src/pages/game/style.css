@@ -1,0 +1,55 @@
+
+
+.tic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 250px;
+    height: 250px;
+    margin: 10px auto;
+
+    box-shadow: 0 0 20px #bbb;
+
+    --border-style: 2px skyblue solid;
+
+}
+
+.tic button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+    width: 33.33%;
+    height: 33.33%;
+
+    background-color: #fff;
+
+    font-size: 35px;
+
+}
+
+.tic button:nth-child(5) {
+    border: var(--border-style)
+}
+
+.tic button:nth-child(2),
+.tic button:nth-child(8) {
+    border-left: var(--border-style);
+    border-right: var(--border-style);
+}
+
+.tic button:nth-child(4),
+.tic button:nth-child(6) {
+    border-top: var(--border-style);
+    border-bottom: var(--border-style);
+}
+
+.status {
+    margin-top: 50px;
+
+    font-size: 36px;
+    text-align: center;
+}
